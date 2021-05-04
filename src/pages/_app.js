@@ -5,7 +5,7 @@ import '../sass/main.scss';
 
 
 function MyApp({ Component, pageProps }) {
-
+//l
     useEffect(() => {
         if (window.onNextjsAppDidMount) {
             window.onNextjsAppDidMount();
