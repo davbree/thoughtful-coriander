@@ -10,6 +10,7 @@ import BlogPostTags from '../components/BlogPostTags';
 
 export default class Post extends React.Component {
     render() {
+        //aaaa
         let has_image = false;
         let image_pos = _.get(this.props, 'page.frontmatter.image_position', null) || 'top';
         if (_.get(this.props, 'page.frontmatter.image', null)) {
