@@ -5,7 +5,7 @@ import { withPrefix } from '../utils';
 
 
 class MyDocument extends Document {
-//kfasa
+//kfasadddd
     static async getInitialProps(ctx) {
         const initialProps = await Document.getInitialProps(ctx);
         // see https://github.com/nfl/react-helmet#server-usage for more information
