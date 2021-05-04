@@ -7,7 +7,7 @@ import { sourcebitDataClient } from 'sourcebit-target-next';
  */
 
 import Page from './[...slug]';
-//ddd
+//dddfdf
 
 export async function getStaticProps({ params }) {
     console.log('Page [index] getStaticProps, params: ', params);
